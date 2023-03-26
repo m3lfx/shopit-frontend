@@ -29,7 +29,7 @@ const Login = () => {
         else if (isAuthenticated)
             navigate('/')
         if (error) {
-            // alert.error(error);
+           
             console.log(error)
             notify(error)
             dispatch(clearErrors());
